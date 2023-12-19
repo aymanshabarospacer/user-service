@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_aymanshabarospacer_user_service_1702982892644-pr-trigger-input-set
+  identifier: Build_aymanshabarospacer_user_service_1702982892644prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_aymanshabarospacer_user_service_1702982892644
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
