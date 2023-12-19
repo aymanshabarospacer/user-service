@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_aymanshabarospacer_user_service_1702982892644-push-trigger-input-set
+  identifier: Build_aymanshabarospacer_user_service_1702982892644pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_aymanshabarospacer_user_service_1702982892644
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
